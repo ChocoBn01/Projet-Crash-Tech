@@ -1,5 +1,18 @@
 #include "Biblio.h"
 
+void init_tab(Tab tab[]) {
+    for (int i = 0; i < NB_YEARS; i++) {
+        tab[i].year = MIN_YEAR + i;
+        tab[i].nb_accidents = 0;
+        tab[i].nb_uninjured = 0;
+        tab[i].nb_deaths = 0;
+        tab[i].nb_seriously_injured = 0;
+        tab[i].nb_minor_injuries = 0;
+    }
+}
+
+
+
 void menu_year_data(){
     int year;
     int choice = 0;
