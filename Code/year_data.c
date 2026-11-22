@@ -11,6 +11,11 @@ void init_tab(Tab tab[]) {
     }
 }
 
+void load_data(char* filename, Tab tab[]) {
+
+
+
+
 
 
 void menu_year_data(){
