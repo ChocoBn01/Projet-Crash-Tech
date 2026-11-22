@@ -20,8 +20,13 @@ typedef struct{
 }Accident;
 
 //YEAR_DATA's structure
-typedef struct{
-    Accident* accident;
+typedef struct {
+    int year;
+    int nb_accidents;
+    int nb_uninjured;
+    int nb_deaths;
+    int nb_seriously_injured;
+    int nb_minor_injuries;
 }Tab;
 
 // AGE_DATA's structure
