@@ -5,6 +5,8 @@
 #include <time.h>
 #include <unistd.h>
 #define couleur(param) printf("\033[%sm",param)
+#define MIN_YEAR 2005
+#define MAX_YEAR 2024
 
 // accident's structure
 typedef struct{
